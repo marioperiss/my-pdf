@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Protezione credenziali e chiavi API
+**/local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*credentials*
+*secrets*
+# Cartelle locali e temporanee
+.idea/
+.kotlin/
+.vscode/
+node_modules/
+*.backup
+*.backup.*
+
+# Backup e copie temporanee
+*.bak
+*.bak*
+*.backup
+*.backup.*
+
+# Build e cache Android
+**/build/
+**/.gradle/
+**/.kotlin/
+.idea/
+.vscode/
+
+# File locali e temporanei
+*.log
+.DS_Store
